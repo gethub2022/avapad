@@ -1,0 +1,47 @@
+{
+  "../../node_modules/@web3-react/fortmatic-connector/dist/fortmatic-connector.esm.js -> fortmatic": {
+    "id": 49878,
+    "files": [
+      "static/chunks/878.56b4173f80ac890410f5.js"
+    ]
+  },
+  "../../node_modules/@web3-react/walletconnect-connector/dist/walletconnect-connector.esm.js -> @walletconnect/ethereum-provider": {
+    "id": 33006,
+    "files": [
+      "static/chunks/764-93cc2c0fbcbf3bd693f1.js",
+      "static/chunks/6.1bca6cc2cf7f10fc50da.js",
+      "static/chunks/563.6e1e0a9b62559b6d7be0.js"
+    ]
+  },
+  "../components/Web3ReactManager/index.tsx -> ./GnosisManager": {
+    "id": 24640,
+    "files": [
+      "static/chunks/861-d8abcac5223fd9cd998e.js",
+      "static/chunks/495.28720b0b403ad2b04c42.js",
+      "static/chunks/640.c88272364a15ec7a1fd2.js"
+    ]
+  },
+  "../config/wallets.ts -> @web3-react/walletconnect-connector": {
+    "id": 83929,
+    "files": []
+  },
+  "../entities/FortmaticConnector.ts -> fortmatic": {
+    "id": 49878,
+    "files": [
+      "static/chunks/878.56b4173f80ac890410f5.js"
+    ]
+  },
+  "_app.tsx -> ../components/Web3ProviderNetwork": {
+    "id": 30272,
+    "files": [
+      "static/chunks/885.f7e42136d0a212b13c5e.js"
+    ]
+  },
+  "configure/claimer/add.tsx -> @/components/Editor": {
+    "id": 76892,
+    "files": [
+      "static/chunks/f65a48b9.e7049bde815645bde33c.js",
+      "static/chunks/892.5c5b374736e637fc51ea.js"
+    ]
+  }
+}

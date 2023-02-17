@@ -1,0 +1,141 @@
+{
+  "name": "launchpad",
+  "description": "Launchpad",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "launchpad"
+  ],
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "yarn lint --fix",
+      "yarn format"
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "11.8.1",
+    "@emotion/styled": "11.8.1",
+    "@gnosis.pm/safe-apps-web3-react": "^0.6.0",
+    "@mui/lab": "5.0.0-alpha.72",
+    "@mui/material": "5.5.0",
+    "@tailwindcss/forms": "0.4.0",
+    "big.js": "^6.1.0",
+    "bootstrap": "^4.6.0",
+    "codemirror": "^5.61.0",
+    "decimal.js-light": "^2.5.0",
+    "formik": "2.2.9",
+    "graphql": "16.3.0",
+    "graphql-request": "4.0.0",
+    "jsbi": "4.2.0",
+    "keccak256": "1.0.6",
+    "material-design-icons": "3.0.1",
+    "merkletreejs": "0.2.31",
+    "moment-timezone": "0.5.34",
+    "next": "11.1.4",
+    "numeral": "2.0.6",
+    "papaparse": "5.3.2",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.2",
+    "read-excel-file": "5.2.28",
+    "swr": "1.2.2",
+    "toformat": "^2.0.0",
+    "yup": "0.32.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "@ethersproject/abi": "^5.4.0",
+    "@ethersproject/abstract-provider": "^5.4.0",
+    "@ethersproject/address": "^5.4.0",
+    "@ethersproject/bignumber": "^5.4.0",
+    "@ethersproject/bytes": "^5.4.0",
+    "@ethersproject/constants": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.0",
+    "@ethersproject/hash": "^5.4.0",
+    "@ethersproject/keccak256": "^5.4.0",
+    "@ethersproject/providers": "^5.4.0",
+    "@ethersproject/strings": "^5.4.0",
+    "@ethersproject/units": "^5.4.0",
+    "@fortawesome/fontawesome-svg-core": "1.3.0",
+    "@fortawesome/free-brands-svg-icons": "6.0.0",
+    "@fortawesome/free-regular-svg-icons": "6.0.0",
+    "@fortawesome/free-solid-svg-icons": "6.1.1",
+    "@fortawesome/react-fontawesome": "0.1.18",
+    "@headlessui/react": "1.4.3",
+    "@heroicons/react": "1.0.5",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@tailwindcss/jit": "^0.1.18",
+    "@types/big.js": "^6.1.0",
+    "@types/node": "16.11.24",
+    "@types/react": "17.0.39",
+    "@types/react-dom": "17.0.11",
+    "@typescript-eslint/eslint-plugin": "5.11.0",
+    "@typescript-eslint/parser": "5.11.0",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/fortmatic-connector": "^6.1.6",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/lattice-connector": "^6.1.9",
+    "@web3-react/network-connector": "6.2.9",
+    "@web3-react/portis-connector": "^6.1.9",
+    "@web3-react/torus-connector": "^6.1.9",
+    "@web3-react/walletconnect-connector": "7.0.2-alpha.0",
+    "@web3-react/walletlink-connector": "^6.2.3",
+    "babel-jest": "^27.2.0",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^1.13.1",
+    "commitizen": "4.2.4",
+    "copy-to-clipboard": "3.3.1",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "2.5.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "graphql-tag": "^2.12.5",
+    "husky": "7.0.4",
+    "lint-staged": "12.3.3",
+    "nano-ipfs-store": "0.1.3",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "2.5.1",
+    "react-device-detect": "2.1.2",
+    "react-feather": "2.0.9",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "styled-components": "5.3.3",
+    "tailwindcss": "^2.2.9",
+    "tailwindcss-border-gradient-radius": "^2.0.0",
+    "typescript": "^4.3.5"
+  },
+  "resolutions": {
+    "@walletconnect/web3-provider": "1.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "next-unused": {
+    "debug": true,
+    "include": [
+      "src"
+    ],
+    "exclude": [],
+    "entrypoints": [
+      "src/pages"
+    ]
+  }
+}

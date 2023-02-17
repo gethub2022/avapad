@@ -1,0 +1,159 @@
+@tailwind base;
+
+/* @import '@fontsource/dm-sans/index.css';
+@import 'react-virtualized/styles.css';
+@import 'rc-slider/assets/index.css';
+*/
+@import './variables.css';
+@tailwind utilities;
+/* 
+@tailwind components;
+*/
+/* 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+
+/* html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings: 'case'1, 'rlig'1, 'calt'0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* html,
+body {
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+  color: var(--text-primary);
+} */
+/* body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.striped-background {
+  background: repeating-linear-gradient(45deg, #161522, #161522 10px, #0d0415 10px, #0d0415 20px);
+} */
+
+/* *::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAADklEQVR42mNkgAJG3AwAAH4ABWjFc8IAAAAASUVORK5CYII=) repeat-y !important;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAADklEQVR42mNkgAJG3AwAAH4ABWjFc8IAAAAASUVORK5CYII=) repeat-y !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 3px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #BFBFBF;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "PT sans",
+sans-serif;
+}
+
+*/
+/* @font-face {
+  font-family: fl1-shelly;
+  src: url('./assets/css/fonts/fl1_shelly.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fl2-bernhard;
+  src: url('./assets/css/fonts/fl2_bernhard.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fl3-palette;
+  src: url('./assets/css/fonts/fl3_palette.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fl4-gando;
+  src: url('./assets/css/fonts/fl4_gando.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fl5-finehand;
+  src: url('./assets/css/fonts/fl5_finehand.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fm1-palace;
+  src: url('./assets/css/fonts/fm1_palace.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fm2-times;
+  src: url('./assets/css/fonts/fm2_times.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: fm3-times-kursive;
+  src: url('./assets/css/fonts/fm3_times_kursiv.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */

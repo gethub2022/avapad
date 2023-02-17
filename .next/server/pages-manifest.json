@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/claimer/[id]": "pages/claimer/[id].html",
+  "/claimer": "pages/claimer.html",
+  "/configure/add": "pages/configure/add.html",
+  "/configure/claimer/add": "pages/configure/claimer/add.html",
+  "/configure/claimer": "pages/configure/claimer.html",
+  "/configure": "pages/configure.html",
+  "/configure/projects/[id]": "pages/configure/projects/[id].html",
+  "/": "pages/index.html",
+  "/projects/[id]": "pages/projects/[id].html",
+  "/projects": "pages/projects.html",
+  "/staking": "pages/staking.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
